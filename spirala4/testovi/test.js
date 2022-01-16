@@ -3,7 +3,7 @@ let brojVjezbiVeci = 16;
 let assert = chai.assert;
 describe("iscrtajVjezbe()", function () {
   describe("iscrtajZadatke()", function () {
-    it("Broj vježbi mora biti jednak parametaru brojVjezbi 5", function () {
+    it("Broj vježbi mora biti jednak parametaru brojVjezbi", function () {
       iscrtajVjezbe(document.getElementById("container-vjezbe"), {
         brojVjezbi: brojVjezbi,
         brojZadataka: [3, 1, 9, 12, 6],
@@ -18,7 +18,7 @@ describe("iscrtajVjezbe()", function () {
         brojZadataka: [3, 1, 9, 12, 6],
       });
       let brojDivova = document.getElementById("test-vjezbe").children.length;
-      assert(brojDivova == 0, "Broj vježbi je veci od 15, ne iscrtava");
+      assert(brojDivova == 0, "Broj vježbi mora biti između 1 i 15");
     });
 
     it("Broj zadataka u vježbi 1 mora biti 3", function () {
@@ -35,7 +35,7 @@ describe("iscrtajVjezbe()", function () {
       assert.equal(zadaci, "none", "Zadaci u vježbi 1 su sakriveni");
     });
 
-    it("Nakon ponovo klika na vježbu 4, zadaci u vjezbi 4 moraju biti sakriveni", function () {
+    it("Nakon ponovo klika na vježbu 4, zadaci u vježbi 4 moraju biti sakriveni", function () {
       iscrtajZadatke(document.getElementById("vjezba4"), 12);
       let vjezba4 = document.getElementById("vjezba4");
       let zadaci = vjezba4.nextSibling.style.display;
