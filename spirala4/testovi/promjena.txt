@@ -3,5 +3,6 @@ broj vježbi na 15 ili da ne mogu ići u minus.
 
 U spirala3b.js promjena je na iscrtajZadatke funkciji. U ovom slučaju, ne postoji ternary operator koji sakriva i pokazuje zadatke, takođe nema if uslova u petlji, koji pregledava svaku vježbu i gleda
 da li su njeni zadaci sakriveni ili prikazani, te da ih automatski sakrije ako su prikazani pri klikom na drugu vježbu.
+U test.js, pozivanjem funkcije iscrtajZadatke, simulira se click na zadanu vježbu.
 
 U spirala3.js bila je jako mala promjena, gdje u iscrtajVjezbe, u petlju, dodano je let i, da ne bi postajao global leak.

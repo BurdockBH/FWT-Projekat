@@ -1,0 +1,46 @@
+.vjezbe {
+  justify-content: center;
+  font-size: 8pt;
+  cursor: pointer;
+  text-align: center;
+}
+
+.vjezbe:nth-of-type(2n + 1) {
+  background-color: darkgrey;
+}
+
+.vjezbe:nth-of-type(4n - 1) {
+  background-color: gray;
+}
+
+p {
+  padding: 5px;
+  font-size: 25pt;
+  margin: 0%;
+}
+
+.zadatak {
+  display: inline-block;
+  border: solid 1px black;
+  font-size: 20pt;
+  background-color: cyan;
+  margin: 2px;
+  width: 120px;
+  text-align: center;
+}
+
+.zadaci {
+  background-color: wheat;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: none;
+  width: 100%;
+}
+#container-vjezbe {
+  width: 70%;
+  margin: 7% 10% 10% 15%;
+}
+#test-vjezbe {
+  width: 70%;
+  margin: 7% 10% 10% 15%;
+}
