@@ -1,5 +1,5 @@
 U spirala3a.js promjene su većinski urađene na petljama. Nepravilno kreiranje petlje uzrokuje da se niz vježbi i zadataka ne ispisuje pravilno. Takođe je posmatrano ako ne postoji petlja if koja ograničava
-broj vježbi na 15 ili da ne mogu ići u minus.
+broj vježbi između 1 i 15.
 
 U spirala3b.js promjena je na iscrtajZadatke funkciji. U ovom slučaju, ne postoji ternary operator koji sakriva i pokazuje zadatke, takođe nema if uslova u petlji, koji pregledava svaku vježbu i gleda
 da li su njeni zadaci sakriveni ili prikazani, te da ih automatski sakrije ako su prikazani pri klikom na drugu vježbu.
